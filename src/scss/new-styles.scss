@@ -1,0 +1,19 @@
+
+// set the variable
+$dark-border: 3px solid black;
+$light-border: 1px dashed #eee;
+
+// use the variable
+.bigbox {
+  border: $dark-border;
+}
+
+blockquote {
+  // using the variable again
+  border-left: $dark-border;
+  padding-left: 20px;
+}
+
+@import 'base';
+@import 'nav';
+@import 'content_';
